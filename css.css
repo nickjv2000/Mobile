@@ -130,8 +130,7 @@ body, body * {
 }
 
 .yt{
-visibility: hidden;	
-
+display: none;
 }
 
 .slideshow-container {
@@ -322,7 +321,6 @@ visibility: hidden;
 }
 
 .dropdown-content1 a:hover{
-  
   padding-left: 2%;
 }
 
@@ -350,7 +348,6 @@ visibility: hidden;
 }
 
 .yt2{
-  visibility: visible;
   margin-left: 7%;
   margin-top: 10%;
 }
@@ -372,12 +369,12 @@ visibility: hidden;
     visibility: hidden;
   }
 
-  .slideshow-container {
+  .slideshow-container{
   max-width: 100%;
   position: relative;
   margin: auto;
   margin-top: 2%;
-}
+  }
 
   #belk{
     height: auto;
@@ -459,14 +456,14 @@ visibility: hidden;
   }
 
   .yt{
-    visibility: visible;
     margin-left: 10%;
     margin-top: 10%;
     height: 800px;
+    position: absolute;
   }
 
   .yt2{
-    visibility: hidden;
+    display: none;
   }
 
   #banner{
