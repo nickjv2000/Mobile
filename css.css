@@ -1,0 +1,492 @@
+html{
+	font-size: 20px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+body, body * {
+  font-family: 'Archivo', sans-serif;
+}
+
+#icon{
+	font-size: 50px; 
+	margin-left: 21px; 
+	margin-top: 15px; 
+	border: 1px solid lightgrey; 
+	padding-top: 10px; 
+	padding-left: 20px; 
+	padding-right: 20px; 
+	padding-bottom: 10px;
+	float: left;
+}
+
+#phone{
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-size: 30px;
+}
+
+#app{
+  margin-bottom: 2%;
+  font-size: 35px;
+}
+
+#clock{
+  margin-bottom: 2%;
+  font-size: 32px;
+}
+
+#dash{
+  font-size: 30px;
+}
+
+#icon2{
+	font-size:50px; 
+	margin-left:40px; 
+	margin-top:15px;
+}
+
+#banner{
+	width: 300px;
+	height: auto;
+	margin-left: 20vh; 
+	margin-top: 15px;
+	float: none;
+	position: absolute;
+}
+
+.balk{
+	float: none;
+}
+
+.car{
+	margin-left: 15%;
+	margin-bottom: 4%;
+	margin-top: 3%;
+}
+
+#icoon{
+  font-size: 30px;
+}
+
+.btn{
+  margin-top: 5%;
+	margin-bottom: 10%;
+	margin-left: 30%;
+}
+
+.tekst1{
+	width: 400px;
+	text-align: left;
+	margin-left: 15%;
+}
+
+.tekst2{
+  width: 400px;
+  margin-left: 15%;
+  text-align: left;
+}
+
+.tekst3{
+  width: 400px;
+  text-align: left;
+  margin-left: 15%;
+}
+
+.tekstTitle{
+	width: 400px;
+	background-color: #ffc814;
+	margin-left: 15%;
+	height: 8vh;
+}
+
+.teksttitle{
+	padding-left: 25%;
+  padding-top: 4.5%;
+  font-size: 30px;
+}
+
+.Map{
+	margin-left: 15%;
+	margin-top: 10%;
+	margin-bottom: 4%;
+}
+
+#map{
+  font-size: 30px;
+}
+
+.Education{
+	margin-left: 15%;
+	margin-top: 10%;
+	margin-bottom: 4%;
+}
+
+#education{
+  font-size: 30px;
+}
+
+.yt{
+visibility: hidden;	
+
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.dropbtn{
+  background-color: white;
+  width: 5%;
+  margin-left: 20px;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:link{
+	color: black;
+}
+
+.dropbtn:visited{
+	color: black;
+}
+
+.dropbtn:hover{
+	color: black;
+}
+
+.dropdown {
+  padding-right: 5%;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: white;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover{
+	/*background-color: lightgrey;*/
+	padding-left: 2%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+.dropbtn1{
+  background-color: #ffdb66;
+  color: white;
+  width: 5%;
+  margin-left: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn1:link{
+  color: white;
+}
+
+.dropbtn1:visited{
+  color: white;
+}
+
+.dropbtn1:hover{
+  color: black;
+}
+
+.dropbtn1:active{
+  color: white;
+}
+
+.dropdown1 {
+  width: 100%;
+  padding-right: 5%;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  background-color: #ffdb66;
+  height: 10vh;
+  text-decoration-color: white;
+}
+
+.dropdown-content1 {
+  display: none;
+  margin-left: 7%;
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 a:hover{
+  
+  padding-left: 2%;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+#jema{
+  width:100%; 
+  height:300px;
+}
+
+#ballek{
+  width:100%; 
+  height:300px;
+}
+
+#belk{
+  width:100%; 
+  height:300px;
+}
+
+#hr{
+  width: 92%
+}
+
+.yt2{
+  visibility: visible;
+  margin-left: 7%;
+  margin-top: 10%;
+}
+
+@media(min-width: 768px){
+	h1{
+		font-size: 2rem;
+	}
+
+	nav>ul>li>a{
+		color: yellow;
+	}
+
+  .dropbtn{
+    visibility: hidden;
+  }
+
+  .dropbtn1{
+    visibility: hidden;
+  }
+
+  .slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  margin-top: 2%;
+}
+
+  #belk{
+    height: auto;
+  }
+
+  #ballek{
+    height: auto;
+  }
+
+  #jema{
+    height: auto;
+  }
+
+  .car{
+    margin-bottom: 15px;
+    margin-top: 10%;
+  }  
+
+  #hr{
+    width: 65%;
+    margin-left: 14%;
+  }  
+
+  #hr1{
+    width: 65%;
+    margin-right: 65%;
+  }
+
+  #hr3{
+    width: 65%;
+    margin-right: 65%;
+  }
+
+  .tekst1{
+    width: 55%;
+    text-align: left;
+  }
+
+  .tekst2{
+    width: 55%;
+    padding-bottom: 20%;
+    text-align: left;
+  }
+
+  .tekst3{
+    width: 55%;
+    text-align: left;
+  }
+
+  .tekstTitle{
+    width: 60%;
+    height: 7vh;
+  }
+
+  .teksttitle{
+    padding-left: 24%;
+  }
+
+  .Map1{
+    display: inline-block;
+    width: 30%;
+  }
+
+  .Car1{
+    width: 30%;
+    margin-left: 5%;
+    display: inline-block;
+  }
+
+  .Education1{
+    width: 30%;
+    margin-left: 0%;
+    display: inline-block;
+  }
+
+  .Education{
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+
+  .yt{
+    visibility: visible;
+    margin-left: 10%;
+    margin-top: 10%;
+    height: 800px;
+  }
+
+  .yt2{
+    visibility: hidden;
+  }
+
+  #banner{
+  width: 300px;
+  padding: 0;
+  margin-left: 20vh; 
+  height: 10%;
+  margin-bottom: 200px;
+  margin-top: 0%;
+  height: 100px;
+
+  }
+
+  .dropdown1{
+    height: 50px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .pclas{
+    height: 0;
+  }
+}
