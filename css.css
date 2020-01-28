@@ -29,6 +29,10 @@ body, body * {
   font-size: 30px;
 }
 
+.pclas{
+	display: none;
+}
+
 #app{
   margin-bottom: 2%;
   font-size: 35px;
@@ -54,8 +58,6 @@ body, body * {
 	height: auto;
 	margin-left: 20vh; 
 	margin-top: 15px;
-	float: none;
-	position: absolute;
 }
 
 .balk{
@@ -137,6 +139,14 @@ display: none;
   max-width: 100%;
   position: relative;
   margin: auto;
+}
+
+.navbar{
+	display: none;
+}
+
+.info1{
+	display: none;
 }
 
 /* Next & previous buttons */
@@ -430,7 +440,7 @@ display: none;
   }
 
   .teksttitle{
-    padding-left: 24%;
+    padding-left: 19%;
   }
 
   .Map1{
@@ -460,30 +470,196 @@ display: none;
     margin-top: 10%;
     height: 800px;
     position: absolute;
+    display: block;
   }
 
   .yt2{
     display: none;
   }
 
-  #banner{
-  width: 300px;
-  padding: 0;
-  margin-left: 20vh; 
-  height: 10%;
-  margin-bottom: 200px;
-  margin-top: 0%;
-  height: 100px;
-
+  .dropdown1{
+    display: none;  
   }
 
-  .dropdown1{
-    height: 50px;
-    margin-bottom: 0;
-    padding: 0;
+  .dropdown{
+  	display: none;
   }
 
   .pclas{
     height: 0;
   }
+
+  .info1{
+  	background-color: #ffdb66;
+  	font-size: 19px;
+  	width: 100%;
+  	height: 60px;
+  	color: gray;
+  	display: block;
+  }
+
+  #phone1{
+  	margin-top: 1%;
+  	margin-left: 35%;
+  }
+
+  #app1{
+  	margin-left: 5%;
+  }
+
+  #fb1{
+  	margin-left: 5%;
+  }
+
+  #clock1{
+  	margin-left: 5%;
+  }
+
+  #dash1{
+  	margin-left: 5%;
+  }
+
+  #banner{
+  	margin-left: 150px;
+  	margin-bottom: 0%;
+  	margin-top: 0px;
+  	height: 150px;
+  	padding: 0;
+  	width: 350px;
+  	float: left;
+  }
+
+  .navbar {
+  padding-top: 3%;
+  overflow: hidden;
+  display: block;
+  color: grey;
+  margin-left: 34%;
+  width: 60%;
+  text-align: right;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown3 {
+  font-size: 24px;
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown4 {
+  font-size: 24px;
+  float: left;
+  overflow: hidden;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#theo{
+	margin-right: 2%;
+	font-size: 20px;
+}
+
+#opf{
+	margin-right: 2%;
+	font-size: 20px;
+}
+
+#cont{
+	font-size: 20px;
+}
+
+.dropdown3 .dropbtn3 {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: gray;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown4 .dropbtn4 {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: gray;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown3:hover .dropbtn3 {
+  background-color: white;
+}
+
+.navbar a:hover, .dropdown4:hover .dropbtn4 {
+  background-color: white;
+}
+
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  max-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content3 a {
+  float: none;
+  color: gray;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content3 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown3:hover .dropdown-content3 {
+  display: block;
+}
+
+.dropdown4:hover .dropdown-content4 {
+  display: block;
+}
+
+.dropdown-content4 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content4 a {
+  float: none;
+  color: gray;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  max-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+}
+
+.footer{
+	margin-top: 120vh;
+	margin-left: 95vh;
 }
